@@ -11,13 +11,13 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'TechVJBot')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('28609964', ''))
+API_HASH = environ.get('3236bdf1e11a0fb8091495e083857621', '')
+BOT_TOKEN = environ.get('7597391889:AAHJEIuCaDST30AZFxMMQ9YlVAncWpmHSSQ', "")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split()
+PICS = (environ.get('PICS', 'https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAECwElnZFMjjqNMG--V9gW7uRZRgL6V1wACn8MxGwLTIVe8HsVMnrKoSgEAAwIAA3kAAzYE')).split()
 
 
 # Admins & Users
